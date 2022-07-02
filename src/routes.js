@@ -8,7 +8,7 @@ import {
 import App from './App'
 import Login from "./container/Login";
 import Register from "./container/Register";
-
+import Home from "./container/Home";
 
 function MyRoutes() {
     return(
@@ -17,6 +17,7 @@ function MyRoutes() {
             <Route path="/" element={<App/>}/>
             <Route path="/login" element={<Login/>}/>
             <Route path="/register" element={<Register/>}/>
+            <Route path="/home" element={<Home/>}/>
         </Routes>
         </BrowserRouter>
     )

@@ -1,7 +1,10 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import { Container, ContainerInputs, Label, Input } from './styles'
 
 function Login() {
+    let navigate = useNavigate()
+
     return (
         <Container>
             <h1>ENTRAR</h1>
@@ -16,7 +19,7 @@ function Login() {
                 <Input type="password" />
             </ContainerInputs>
 
-            <button>ENTRAR</button>
+            <button onClick={() => {navigate("/home")}}>ENTRAR</button>
         </Container>
     )
 
