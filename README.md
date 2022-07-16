@@ -34,7 +34,7 @@
 
  Movies and their trailers
 
-<h3>Projeto em desenvolvimento<h3>
+<img src="https://github.com/JonatasAbreu/Arcane/blob/master/src/assets/arcaneReadme.png">
 
 ## :sparkles: Features ##
 
