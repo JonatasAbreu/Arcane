@@ -24,6 +24,7 @@ export const Container = styled.div`
         width: 184px;
         height: 41px;
         margin-top: 40px;
+        margin-right: 10px;
         background: #0080C8;
         font-style: normal;
         font-weight: 700;
@@ -69,4 +70,30 @@ export const Input = styled.input`
     border: none;
     outline: none;
     margin-bottom: 40px;
+`
+export const ButtonGoogle = styled.button`
+
+    width: 184px;
+        height: 41px;
+        margin-top: 40px;
+        background: #0080C8;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 25px;
+        color: #FFFFFF;
+        border-radius: 4px;
+        border: none;
+        cursor: pointer;
+
+        &:hover{
+            opacity: 0.8;
+        }
+
+        &:active {
+            opacity: 0.9;
+        }
+
+
+
 `
